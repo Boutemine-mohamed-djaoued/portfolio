@@ -1208,7 +1208,7 @@ footer {
   align-items: end;
 }
 
-.image-div video {
+.image-div video , .image-div img {
   /* width: 100%; */
   border-top-left-radius: 30px;
   /* border-radius : 80px 0 0 0 ; */
@@ -1915,12 +1915,8 @@ footer {
     height: 50%;
     padding: 0px;
   }
-  .image-div  video {
-    border-radius : 30px;
-  }
-
-  .image-div img {
-    border-top-left-radius: 10px;
+  .image-div  video ,.image-div img {
+    border-radius : 0px !important;
   }
 
   .tech-stack-wrapper {
