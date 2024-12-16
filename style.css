@@ -1545,7 +1545,7 @@ footer {
 }
 
 .footer-bottom {
-  background-color: #0b0b0b;
+  background-color: black;
   width: 100%;
   display: flex;
   align-items: center;
